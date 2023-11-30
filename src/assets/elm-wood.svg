@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="730px" height="186px" viewBox="0 0 730 186" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>school</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="10" y="44" width="709" height="134"></rect>
+        <filter x="-1.0%" y="-3.7%" width="102.0%" height="110.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="330 25.5 368.308594 0 404 25.5 404 178 330 178"></polygon>
+        <filter x="-9.5%" y="-2.8%" width="118.9%" height="107.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet" transform="translate(-31.000000, -160.000000)">
+            <g id="school" transform="translate(31.000000, 162.000000)">
+                <g id="building">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" stroke-linejoin="square" fill="#B59062" fill-rule="evenodd" x="10.5" y="44.5" width="708" height="133"></rect>
+                </g>
+                <path d="M623.711121,8.5 L99.4840584,8.5 L8.31493218,42.5 L721.148401,42.5 L623.711121,8.5 Z" id="roof" stroke="#EAE3DF" stroke-width="3" fill="#AA6D53"></path>
+                <g id="middle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <path stroke="#EEEBEA" stroke-width="1" d="M368.298552,0.60732709 L330.5,25.7678191 L330.5,177.5 L403.5,177.5 L403.5,25.7572729 L368.298552,0.60732709 Z" stroke-linejoin="square" fill="#B59062" fill-rule="evenodd"></path>
+                </g>
+                <path d="M367,20.4324324 C360.086743,20.4324324 353.824991,23.0137615 349.293504,27.1966731 C344.792153,31.3517663 342,37.0896939 342,43.4324324 L342,95 L391.999863,95 L391.992865,43.9875719 C391.997613,43.8030566 392,43.6180019 392,43.4324324 C392,37.0896939 389.207847,31.3517663 384.706496,27.1966731 C380.175009,23.0137615 373.913257,20.4324324 367,20.4324324 Z" id="main-window" stroke="#F1F1F1" stroke-width="2" fill="#A4C5C1"></path>
+                <g id="door" transform="translate(335.000000, 120.410035)">
+                    <path d="M63.3279847,0.5 L1.64530124,0.5 L3.88794615,9.19628891 L60.6285793,9.49801783 L63.3279847,0.5 Z" id="Rectangle" stroke="#979797" fill="#D8D8D8"></path>
+                    <rect id="Rectangle" stroke="#383535" stroke-width="3" fill="#584747" x="12.5" y="13.0899654" width="39" height="43"></rect>
+                    <g id="light" transform="translate(56.000000, 14.000000)" fill="#D8D8D8" stroke="#EFECEC">
+                        <circle cx="4" cy="4" r="3.5"></circle>
+                    </g>
+                    <g id="light" transform="translate(0.000000, 14.000000)" fill="#D8D8D8" stroke="#EFECEC">
+                        <circle cx="4" cy="4" r="3.5"></circle>
+                    </g>
+                </g>
+                <path d="M340.332,113 L340.332,111.416 L335.712,111.416 L335.712,109.316 L339.864,109.316 L339.864,107.852 L335.712,107.852 L335.712,106.016 L340.236,106.016 L340.236,104.432 L333.828,104.432 L333.828,113 L340.332,113 Z M347.664,113 L347.664,111.416 L343.488,111.416 L343.488,104.432 L341.604,104.432 L341.604,113 L347.664,113 Z M350.484,113 L350.484,106.988 L350.508,106.988 L352.608,113 L354.06,113 L356.16,106.928 L356.184,106.928 L356.184,113 L357.948,113 L357.948,104.432 L355.296,104.432 L353.4,110.324 L353.376,110.324 L351.372,104.432 L348.72,104.432 L348.72,113 L350.484,113 Z M366.324,113 L367.752,107.168 L367.776,107.168 L369.228,113 L371.1,113 L373.404,104.432 L371.556,104.432 L370.152,110.336 L370.128,110.336 L368.664,104.432 L366.9,104.432 L365.412,110.264 L365.388,110.264 L364.032,104.432 L362.148,104.432 L364.416,113 L366.324,113 Z M378.108,113.192 C378.772,113.192 379.364,113.078 379.884,112.85 C380.404,112.622 380.844,112.308 381.204,111.908 C381.564,111.508 381.84,111.038 382.032,110.498 C382.224,109.958 382.32,109.376 382.32,108.752 C382.32,108.112 382.224,107.518 382.032,106.97 C381.84,106.422 381.564,105.944 381.204,105.536 C380.844,105.128 380.404,104.808 379.884,104.576 C379.364,104.344 378.772,104.228 378.108,104.228 C377.452,104.228 376.862,104.344 376.338,104.576 C375.814,104.808 375.372,105.128 375.012,105.536 C374.652,105.944 374.376,106.422 374.184,106.97 C373.992,107.518 373.896,108.112 373.896,108.752 C373.896,109.376 373.992,109.958 374.184,110.498 C374.376,111.038 374.652,111.508 375.012,111.908 C375.372,112.308 375.814,112.622 376.338,112.85 C376.862,113.078 377.452,113.192 378.108,113.192 Z M378.108,111.62 C377.684,111.62 377.324,111.538 377.028,111.374 C376.732,111.21 376.492,110.992 376.308,110.72 C376.124,110.448 375.99,110.142 375.906,109.802 C375.822,109.462 375.78,109.112 375.78,108.752 C375.78,108.376 375.822,108.012 375.906,107.66 C375.99,107.308 376.124,106.994 376.308,106.718 C376.492,106.442 376.732,106.222 377.028,106.058 C377.324,105.894 377.684,105.812 378.108,105.812 C378.532,105.812 378.892,105.894 379.188,106.058 C379.484,106.222 379.724,106.442 379.908,106.718 C380.092,106.994 380.226,107.308 380.31,107.66 C380.394,108.012 380.436,108.376 380.436,108.752 C380.436,109.112 380.394,109.462 380.31,109.802 C380.226,110.142 380.092,110.448 379.908,110.72 C379.724,110.992 379.484,111.21 379.188,111.374 C378.892,111.538 378.532,111.62 378.108,111.62 Z M387.444,113.192 C388.108,113.192 388.7,113.078 389.22,112.85 C389.74,112.622 390.18,112.308 390.54,111.908 C390.9,111.508 391.176,111.038 391.368,110.498 C391.56,109.958 391.656,109.376 391.656,108.752 C391.656,108.112 391.56,107.518 391.368,106.97 C391.176,106.422 390.9,105.944 390.54,105.536 C390.18,105.128 389.74,104.808 389.22,104.576 C388.7,104.344 388.108,104.228 387.444,104.228 C386.788,104.228 386.198,104.344 385.674,104.576 C385.15,104.808 384.708,105.128 384.348,105.536 C383.988,105.944 383.712,106.422 383.52,106.97 C383.328,107.518 383.232,108.112 383.232,108.752 C383.232,109.376 383.328,109.958 383.52,110.498 C383.712,111.038 383.988,111.508 384.348,111.908 C384.708,112.308 385.15,112.622 385.674,112.85 C386.198,113.078 386.788,113.192 387.444,113.192 Z M387.444,111.62 C387.02,111.62 386.66,111.538 386.364,111.374 C386.068,111.21 385.828,110.992 385.644,110.72 C385.46,110.448 385.326,110.142 385.242,109.802 C385.158,109.462 385.116,109.112 385.116,108.752 C385.116,108.376 385.158,108.012 385.242,107.66 C385.326,107.308 385.46,106.994 385.644,106.718 C385.828,106.442 386.068,106.222 386.364,106.058 C386.66,105.894 387.02,105.812 387.444,105.812 C387.868,105.812 388.228,105.894 388.524,106.058 C388.82,106.222 389.06,106.442 389.244,106.718 C389.428,106.994 389.562,107.308 389.646,107.66 C389.73,108.012 389.772,108.376 389.772,108.752 C389.772,109.112 389.73,109.462 389.646,109.802 C389.562,110.142 389.428,110.448 389.244,110.72 C389.06,110.992 388.82,111.21 388.524,111.374 C388.228,111.538 387.868,111.62 387.444,111.62 Z M396.636,113 C397.292,113 397.862,112.89 398.346,112.67 C398.83,112.45 399.234,112.148 399.558,111.764 C399.882,111.38 400.124,110.924 400.284,110.396 C400.444,109.868 400.524,109.292 400.524,108.668 C400.524,107.956 400.426,107.336 400.23,106.808 C400.034,106.28 399.762,105.84 399.414,105.488 C399.066,105.136 398.654,104.872 398.178,104.696 C397.702,104.52 397.188,104.432 396.636,104.432 L392.94,104.432 L392.94,113 L396.636,113 Z M396.504,111.416 L394.824,111.416 L394.824,106.016 L396.168,106.016 C396.632,106.016 397.022,106.082 397.338,106.214 C397.654,106.346 397.908,106.536 398.1,106.784 C398.292,107.032 398.43,107.33 398.514,107.678 C398.598,108.026 398.64,108.416 398.64,108.848 C398.64,109.32 398.58,109.72 398.46,110.048 C398.34,110.376 398.18,110.642 397.98,110.846 C397.78,111.05 397.552,111.196 397.296,111.284 C397.04,111.372 396.776,111.416 396.504,111.416 Z" id="ELMWOOD" fill="#F4F4F4" fill-rule="nonzero"></path>
+                <g id="windows" transform="translate(35.000000, 44.000000)" fill="#2E607B" opacity="0.874720982" stroke="#EFECEC">
+                    <g id="window">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(0.000000, 70.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(65.000000, 0.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(134.000000, 0.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(134.000000, 71.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(64.000000, 71.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(198.000000, 0.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(425.000000, 0.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(425.000000, 70.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(490.000000, 0.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(490.000000, 70.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(559.000000, 0.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(559.000000, 70.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(623.000000, 0.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(623.000000, 70.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window" transform="translate(198.000000, 70.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="1" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="16" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="17" height="16"></rect>
+                            <rect stroke-width="2" x="20" y="31" width="17" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window-narrow" transform="translate(375.000000, 0.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="13" y="1" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="13" y="16" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="13" y="31" width="12" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window-narrow" transform="translate(375.000000, 69.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="13" y="1" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="13" y="16" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="13" y="31" width="12" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window-narrow" transform="translate(263.000000, 0.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="13" y="1" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="13" y="16" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="13" y="31" width="12" height="16"></rect>
+                        </g>
+                    </g>
+                    <g id="window-narrow" transform="translate(263.000000, 69.000000)">
+                        <g id="Rectangle">
+                            <rect stroke-width="2" x="1" y="1" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="13" y="1" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="16" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="13" y="16" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="1" y="31" width="12" height="16"></rect>
+                            <rect stroke-width="2" x="13" y="31" width="12" height="16"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

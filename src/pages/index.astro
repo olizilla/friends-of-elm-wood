@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import NiceDate from '../components/NiceDate.astro'
+import { Image } from 'astro:assets'
+import kids011 from '../assets/kids/kids-011-flip.webp'
+import kids014 from '../assets/kids/kids-014.webp'
+import school from '../assets/elm-wood.svg'
+
+import { getCollection } from 'astro:content'
+const today = new Date()
+const upcomingEvents = await getCollection('events', ({ data }) => data.date >= today)
+
+const pageTitle = 'Home'
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <main class="pb-24">
+    <section class="bg-events max-w-3xl mx-auto pt-12 px-12 pb-24">
+      <h1 class="text-white text-3xl font-bold pb-10 flex justify-between">
+        Events
+        <span class="text-4xl">🎉</span>
+      </h1>
+      <div>
+        {
+          upcomingEvents.map((evt) => (
+            <div class="pb-6">
+              <h2 class="text-3xl font-bold">{evt.data.title}</h2>
+              <NiceDate class="text-lg" date={evt.data.date} />
+            </div>
+          ))
+        }
+      </div>
+    </section>
+    <div class="text-center -mt-12">
+      <Image src={school} alt="" class="inline-block" width={900} />
+    </div>
+    <div class="max-w-5xl mx-auto text-right -mt-44">
+      <Image src={kids011} alt="" class="inline-block" width="300" />
+    </div>
+    <section class="max-w-xl mx-auto py-8 text-2xl font-medium -mt-44">
+      <h1 class="text-red-700 text-4xl font-bold pb-4">Join in</h1>
+      <p class="font-bold pb-2">Help raise money for Elm Wood.</p>
+      <p class="pb-10">Connect with other parents and carers.</p>
+      <p class="pb-2">
+        The next <strong>friends social</strong> is Monday 4 December.
+      </p>
+      <p class="pb-10">
+        See our <a class="underline hover:text-orange-600" href="/volunteers">volunteers page</a>
+         for more.
+      </p>
+      <p class="italic">
+        No time? <a class="underline hover:text-orange-600" href="/donate">Donate here!</a>
+      </p>
+    </section>
+    <!-- <div class="text-center mt-10">
+      <Image src={school} alt="" class="inline-block" width={900} />
+    </div> -->
+  </main>
+  <!-- <div class="max-w-4xl">
+    <Image src={kids014} alt="" class="-mt-20" />
+  </div> -->
+</BaseLayout>

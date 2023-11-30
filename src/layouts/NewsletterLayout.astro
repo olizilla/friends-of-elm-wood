@@ -1,0 +1,13 @@
+---
+import BaseLayout from './BaseLayout.astro'
+const { frontmatter } = Astro.props
+---
+
+<BaseLayout pageTitle={frontmatter.title}>
+  <div class="mx-auto max-w-xl pt-8">
+    <h1 class="">
+      <a href="/news" class="block py-2 text-lg font-medium">{frontmatter.title}</a>
+    </h1>
+    <slot />
+  </div>
+</BaseLayout>
