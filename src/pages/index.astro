@@ -17,7 +17,7 @@ const pageTitle = 'Home'
 
 <BaseLayout pageTitle={pageTitle}>
   <main class="pb-24">
-    <section class="bg-events max-w-3xl mx-auto pt-12 pb-24 px-6 sm:px-12">
+    <section class="bg-events max-w-3xl mx-auto pt-8 pb-24 px-3 sm:px-12">
       <h1 class="text-white text-3xl font-bold pb-10 flex justify-between">
         Events <span class="text-4xl">🎉</span>
       </h1>
@@ -26,7 +26,7 @@ const pageTitle = 'Home'
           upcomingEvents.map((evt) => (
             <div class="pb-8 flex">
               <Cal date={evt.data.date} />
-              <div class="pl-4">
+              <div class="pl-3">
                 <h2 class="text-2xl font-bold text-black">{evt.data.title}</h2>
                 <NiceDate class="text-md text-gray-800" date={evt.data.date} />
               </div>
@@ -39,16 +39,16 @@ const pageTitle = 'Home'
       <Image src={school} alt="" class="inline-block" width={900} />
     </div>
 
-    <div class="max-w-5xl mx-auto text-right -mt-44 hidden sm:block">
+    <div class="max-w-5xl mx-auto text-right sm:-mt-44">
       <Image src={kids011} alt="" class="inline-block" width="300" style="max-width:40%" />
     </div>
 
-    <section class="max-w-xl mx-auto py-8 text-2xl font-medium sm:-mt-44 px-4">
+    <section class="max-w-xl mx-auto py-8 font-medium -mt-20 sm:-mt-44 px-4">
       <h1 class="text-red-700 text-4xl font-bold pb-4">Join in</h1>
-      <p class="font-bold pb-2">Help raise money for Elm Wood.</p>
-      <p class="pb-6">Connect with other parents and carers.</p>
-      <p>
-        Email:
+      <p class="text-xl sm:text-2xl pb-2 font-bold">Help raise money for Elm Wood.</p>
+      <p class="text-lg sm:text-2xl pb-5">Connect with other parents and carers.</p>
+      <p class="text-lg sm:text-2xl">
+        Email
         <code class="text-lg text-black bg-white/40 py-1 px-2 inline-block rounded-md select-all">
           thefriendsofelmwood@gmail.com</code
         >
@@ -64,30 +64,35 @@ const pageTitle = 'Home'
         No time? <a class="underline hover:text-orange-600" href="/donate">Donate here!</a>
       </p> -->
     </section>
-    <section class="max-w-3xl mx-auto bg-gray-100 p-10 border-zinc-400 border mt-14">
-      <h1 class="text-black/20 text-3xl font-bold pb-12 flex justify-between">
-        Impact <span class="text-4xl text-black">🌳</span>
-      </h1>
-      <p class="text-4xl text-zinc-800 font-bold text-left">
-        Together we raised <span class="underline text-black">£8,402</span> last year!
-      </p>
-      <a
-        target="_blank"
-        class="pt-12 block"
-        href="https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1031751/financial-history">
-        <Image
-          src={graph}
-          alt="Graph showing money raised and spent by Friends of Elmwood each year"
-        />
-      </a>
-      <p class="pt-6">
-        Source: <a
+    <section class="mx-1">
+      <div class="max-w-3xl mx-auto bg-gray-100 border-zinc-400 border mt-14 p-5 sm:p-10">
+        <h1 class="text-black/20 text-3xl font-bold pb-12 flex justify-between">
+          Impact <span class="text-4xl text-black">🌳</span>
+        </h1>
+        <p class="text-4xl text-zinc-800 font-bold text-left">
+          Together we raised <span class="underline text-black">£8,402</span> last year!
+        </p>
+        <a
           target="_blank"
-          class="text-blue-500 underline"
-          href="https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1031751/financial-history"
-          >Charity Commission for England and Wales</a
-        >
-      </p>
+          class="pt-12 block"
+          href="https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1031751/financial-history">
+          <Image
+            src={graph}
+            alt="Graph showing money raised and spent by Friends of Elmwood each year"
+          />
+        </a>
+        <p class="pt-6 pb-20">
+          Source: <a
+            target="_blank"
+            class="text-blue-500 underline whitespace-nowrap"
+            href="https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1031751/financial-history"
+            >Charity Commission for England and Wales</a
+          >
+        </p>
+      </div>
     </section>
+    <div class="max-w-6xl mx-auto text-left -mt-28 lg:-mt-52">
+      <Image src={kids014} alt="" class="inline-block" width="300" style="max-width:40%" />
+    </div>
   </main>
 </BaseLayout>

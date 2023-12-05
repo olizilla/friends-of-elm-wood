@@ -1,13 +1,10 @@
 ---
 import { Image } from 'astro:assets'
-import Navigation from './Navigation.astro'
 import logo from './foe-logo.webp'
 ---
 
-<header class="text-center">
-  <a href="/">
-    <Image src={logo} width="400" alt="" class="inline-block py-6" />
+<header class="text-center px-3 py-6">
+  <a href="/" class="inline-block">
+    <Image src={logo} width="400" alt="inline-block" />
   </a>
-  <!-- <div class="text-3xl font-semibold pt-3 pb-6">The Friends of Elm Wood</div> -->
-  <!-- <Navigation /> -->
 </header>
