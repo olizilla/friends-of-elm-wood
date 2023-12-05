@@ -1,0 +1,18 @@
+---
+interface Props {
+  date: Date
+}
+
+const { date } = Astro.props
+---
+
+<time
+  datetime={date.toISOString()}
+  class="block rounded-lg bg-white w-14 h-14 text-center overflow-hidden shadow-sm">
+  <div class="text-xs uppercase bg-red-500 text-white font-semibold py-1">
+    {date.toLocaleDateString('en-GB', { month: 'short' })}
+  </div>
+  <div class="text-2xl">
+    {date.toLocaleDateString('en-GB', { day: 'numeric' })}
+  </div>
+</time>

@@ -24,12 +24,12 @@
             <g id="school" transform="translate(31.000000, 162.000000)">
                 <g id="building">
                     <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                    <rect stroke="#979797" stroke-width="1" stroke-linejoin="square" fill="#B59062" fill-rule="evenodd" x="10.5" y="44.5" width="708" height="133"></rect>
+                    <rect stroke="#979797" stroke-width="1" stroke-linejoin="square" fill="#CD9D61" fill-rule="evenodd" x="10.5" y="44.5" width="708" height="133"></rect>
                 </g>
                 <path d="M623.711121,8.5 L99.4840584,8.5 L8.31493218,42.5 L721.148401,42.5 L623.711121,8.5 Z" id="roof" stroke="#EAE3DF" stroke-width="3" fill="#AA6D53"></path>
                 <g id="middle">
                     <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
-                    <path stroke="#EEEBEA" stroke-width="1" d="M368.298552,0.60732709 L330.5,25.7678191 L330.5,177.5 L403.5,177.5 L403.5,25.7572729 L368.298552,0.60732709 Z" stroke-linejoin="square" fill="#B59062" fill-rule="evenodd"></path>
+                    <path stroke="#EEEBEA" stroke-width="1" d="M368.298552,0.60732709 L330.5,25.7678191 L330.5,177.5 L403.5,177.5 L403.5,25.7572729 L368.298552,0.60732709 Z" stroke-linejoin="square" fill="#D8A96F" fill-rule="evenodd"></path>
                 </g>
                 <path d="M367,20.4324324 C360.086743,20.4324324 353.824991,23.0137615 349.293504,27.1966731 C344.792153,31.3517663 342,37.0896939 342,43.4324324 L342,95 L391.999863,95 L391.992865,43.9875719 C391.997613,43.8030566 392,43.6180019 392,43.4324324 C392,37.0896939 389.207847,31.3517663 384.706496,27.1966731 C380.175009,23.0137615 373.913257,20.4324324 367,20.4324324 Z" id="main-window" stroke="#F1F1F1" stroke-width="2" fill="#A4C5C1"></path>
                 <g id="door" transform="translate(335.000000, 120.410035)">

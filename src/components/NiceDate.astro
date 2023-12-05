@@ -12,7 +12,8 @@ const { date, class: className } = Astro.props
     date.toLocaleDateString('en-GB', {
       weekday: 'long',
       day: 'numeric',
-      month: 'long'
+      month: 'long',
+      year: 'numeric'
     })
   }
 </time>
