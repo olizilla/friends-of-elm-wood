@@ -1,18 +1,29 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
-import NiceDate from '../components/NiceDate.astro'
 import Cal from '../components/Cal.astro'
 import { Image } from 'astro:assets'
 import kids011 from '../assets/kids/kids-011-flip.webp'
 import kids014 from '../assets/kids/kids-014.webp'
 import graph from '../assets/income-graph-2022.png'
 import school from '../assets/elm-wood.svg'
-
-import { getCollection } from 'astro:content'
-const today = new Date()
-const upcomingEvents = await getCollection('events', ({ data }) => data.date >= today)
+import { GoogleSpreadsheet } from 'google-spreadsheet'
+import { parse, isFuture } from 'date-fns'
 
 const pageTitle = 'Home'
+const today = new Date()
+// const upcomingEvents = await getCollection('events', ({ data }) => data.date >= today)
+const doc = new GoogleSpreadsheet('1WSoq8gT0m_hUPsxL2EMTvm5CdZ6-f-ogJGt2fcz1VWs', {
+  apiKey: import.meta.env.GOOGLE_API_KEY
+})
+await doc.loadInfo()
+const sheet = doc.sheetsByIndex[0]
+const rows = (await sheet.getRows()).map((row) => {
+  const date = parse(row.get('Date'), 'd/M/y', today)
+  const name = row.get('Event')
+  const desc = row.get('Description')
+  return { date, name, desc }
+})
+const upcomingEvents = rows.filter((row) => isFuture(row.date)).slice(0,3)
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -23,6 +34,22 @@ const pageTitle = 'Home'
       </h1>
       <div>
         {
+          upcomingEvents.map((row) => (
+            <div class="pb-8 flex">
+              <div class="flex-none">
+                <Cal date={row.date} />
+              </div>
+              <div class="pl-3">
+                <h2 class="text-2xl font-bold text-black">{row.name}</h2>
+                <p>
+                  <!-- <NiceDate class="text-md text-gray-800" date={row.date} /> <br /> -->
+                  {row.desc}
+                </p>
+              </div>
+            </div>
+          ))
+        }
+        <!-- {
           upcomingEvents.map((evt) => (
             <div class="pb-8 flex">
               <Cal date={evt.data.date} />
@@ -32,7 +59,7 @@ const pageTitle = 'Home'
               </div>
             </div>
           ))
-        }
+        } -->
       </div>
     </section>
     <div class="text-center -mt-12">
@@ -70,7 +97,7 @@ const pageTitle = 'Home'
           Impact <span class="text-4xl text-black">🌳</span>
         </h1>
         <p class="text-4xl text-zinc-800 font-bold text-left">
-          Together we raised <span class="underline text-black">£8,402</span> last year!
+          Together we raised <span class="underline text-black">£8402</span> last year!
         </p>
         <a
           target="_blank"
