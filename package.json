@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "pages:dev": "wrangler pages dev --compatibility-date=2023-11-21 -- astro dev",
-    "pages:deploy": "astro build && wrangler pages deploy ./dist",
+    "pages:deploy": "astro build && wrangler pages deploy ./dist --project-name=friends-of-elm-wood",
     "prettier": "prettier . --write"
   },
   "dependencies": {
