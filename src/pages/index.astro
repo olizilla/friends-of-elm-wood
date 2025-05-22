@@ -11,19 +11,25 @@ import { parse, isFuture } from 'date-fns'
 
 const pageTitle = 'Home'
 const today = new Date()
-// const upcomingEvents = await getCollection('events', ({ data }) => data.date >= today)
-const doc = new GoogleSpreadsheet('1WSoq8gT0m_hUPsxL2EMTvm5CdZ6-f-ogJGt2fcz1VWs', {
-  apiKey: import.meta.env.GOOGLE_API_KEY
-})
-await doc.loadInfo()
-const sheet = doc.sheetsByIndex[0]
-const rows = (await sheet.getRows()).map((row) => {
-  const date = parse(row.get('Date'), 'd/M/y', today)
-  const name = row.get('Event')
-  const desc = row.get('Description')
-  return { date, name, desc }
-})
-const upcomingEvents = rows.filter((row) => isFuture(row.date)).slice(0,3)
+let upcomingEvents = []
+try {
+    const doc = new GoogleSpreadsheet('1WSoq8gT0m_hUPsxL2EMTvm5CdZ6-f-ogJGt2fcz1VWs', {
+    apiKey: import.meta.env.GOOGLE_API_KEY
+  })
+  await doc.loadInfo()
+  const sheet = doc.sheetsByIndex[0]
+  const rows = (await sheet.getRows()).map((row) => {
+    const date = parse(row.get('Date'), 'd/M/y', today)
+    const name = row.get('Event')
+    const desc = row.get('Description')
+    return { date, name, desc }
+  })
+  upcomingEvents = rows.filter((row) => isFuture(row.date)).slice(0,3)
+} catch {
+  // ok ok, show something.
+  // upcomingEvents = await getCollection('events')
+}
+
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -49,24 +55,18 @@ const upcomingEvents = rows.filter((row) => isFuture(row.date)).slice(0,3)
             </div>
           ))
         }
-        <!-- {
-          upcomingEvents.map((evt) => (
-            <div class="pb-8 flex">
-              <Cal date={evt.data.date} />
-              <div class="pl-3">
-                <h2 class="text-2xl font-bold text-black">{evt.data.title}</h2>
-                <NiceDate class="text-md text-gray-800" date={evt.data.date} />
-              </div>
-            </div>
-          ))
-        } -->
       </div>
     </section>
+
     <div class="text-center -mt-12">
       <Image src={school} alt="" class="inline-block" width={900} />
     </div>
+      
+    <nav class="mt-8 text-center xl:text-left xl:-mt-44 xl:pl-2">
+      <a class="bg-green-600 py-2 px-10 inline-block text-2xl text-white font-bold rounded-lg" href="/news">Newsletters</a>
+    </nav>
 
-    <div class="max-w-5xl mx-auto text-right sm:-mt-44">
+    <div class="max-w-5xl mx-auto text-right">
       <Image src={kids011} alt="" class="inline-block" width="300" style="max-width:40%" />
     </div>
 
